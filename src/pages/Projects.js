@@ -8,11 +8,10 @@ function Projects() {
         <div className="bg-white p-4 shadow-md rounded-md">
           <h3 className="text-xl font-bold mb-4">Project 1</h3>
           <p className="text-gray-600 mb-4">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-            aliquet commodo nisl, sed interdum ipsum venenatis sit amet.
+            Movie Search App
           </p>
           <a
-            href="#"
+            href="https://zg4219.github.io/movie-selector/"
             className="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600"
           >
             View Project
@@ -21,11 +20,10 @@ function Projects() {
         <div className="bg-white p-4 shadow-md rounded-md">
           <h3 className="text-xl font-bold mb-4">Project 2</h3>
           <p className="text-gray-600 mb-4">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-            aliquet commodo nisl, sed interdum ipsum venenatis sit amet.
+            Recipe Cook Book
           </p>
           <a
-            href="#"
+            href="https://recipes-cook-book.herokuapp.com/"
             className="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600"
           >
             View Project
@@ -34,11 +32,10 @@ function Projects() {
         <div className="bg-white p-4 shadow-md rounded-md">
           <h3 className="text-xl font-bold mb-4">Project 3</h3>
           <p className="text-gray-600 mb-4">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-            aliquet commodo nisl, sed interdum ipsum venenatis sit amet.
+            5-Day Weather Forecast
           </p>
           <a
-            href="#"
+            href=" https://zg4219.github.io/Weather-Forecast/"
             className="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600"
           >
             View Project
