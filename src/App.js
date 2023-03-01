@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Home from './pages/Home';
@@ -13,20 +13,10 @@ function App() {
       <div className="flex flex-col min-h-screen">
         <Navbar />
         <div className="flex-grow">
-          <Switch>
-            <Route exact path="/">
-              <Home />
-            </Route>
-            <Route path="/projects">
-              <Projects />
-            </Route>
-            <Route path="/resume">
-              <Resume />
-            </Route>
-            <Route path="/contact">
-              <Contact />
-            </Route>
-          </Switch>
+          <Route exact path="/" component={Home} />
+          <Route path="/projects" component={Projects} />
+          <Route path="/resume" component={Resume} />
+          <Route path="/contact" component={Contact} />
         </div>
         <Footer />
       </div>
