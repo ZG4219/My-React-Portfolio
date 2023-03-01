@@ -2,8 +2,12 @@ import React from "react";
 
 function Footer() {
   return (
-    <footer className="bg-gray-200 text-center text-xs p-3 absolute bottom-0 w-full">
-      <p>&copy; {new Date().getFullYear()} My Portfolio</p>
+    <footer className="bg-gray-800">
+      <div className="container mx-auto px-6 py-3">
+        <p className="text-sm text-gray-300">
+          &copy; 2023 Dionne Angeles. All rights reserved.
+        </p>
+      </div>
     </footer>
   );
 }

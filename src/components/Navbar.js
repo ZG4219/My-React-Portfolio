@@ -3,52 +3,35 @@ import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
-    <nav className="flex items-center justify-between flex-wrap bg-blue-500 p-6">
-      <div className="flex items-center flex-shrink-0 text-white mr-6">
-        <span className="font-semibold text-xl tracking-tight">My Portfolio</span>
-      </div>
-      <div className="block lg:hidden">
-        <button
-          className="flex items-center px-3 py-2 border rounded text-white border-white hover:text-white hover:border-white"
-        >
-          <svg
-            className="fill-current h-3 w-3"
-            viewBox="0 0 20 20"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <title>Menu</title>
-            <path
-              d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"
-            />
-          </svg>
-        </button>
-      </div>
-      <div className="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
-        <div className="text-sm lg:flex-grow">
+    <nav className="bg-gray-800">
+      <div className="container mx-auto px-6 py-3">
+        <div className="flex items-center justify-between">
           <Link
             to="/"
-            className="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-white mr-4"
+            className="text-xl font-bold text-white hover:text-gray-300"
           >
-            Home
+            My Portfolio
           </Link>
-          <Link
-            to="/projects"
-            className="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-white mr-4"
-          >
-            Projects
-          </Link>
-          <Link
-            to="/resume"
-            className="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-white mr-4"
-          >
-            Resume
-          </Link>
-          <Link
-            to="/contact"
-            className="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-white"
-          >
-            Contact
-          </Link>
+          <div className="flex items-center">
+            <Link
+              to="/projects"
+              className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md"
+            >
+              Projects
+            </Link>
+            <Link
+              to="/resume"
+              className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md"
+            >
+              Resume
+            </Link>
+            <Link
+              to="/contact"
+              className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md"
+            >
+              Contact
+            </Link>
+          </div>
         </div>
       </div>
     </nav>
